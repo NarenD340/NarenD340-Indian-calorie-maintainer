@@ -1,0 +1,101 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+select, input, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+select:focus, input:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.entry {
+  background: #e9f7ef;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results {
+  background: #e9f7ef;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+canvas {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 300px;
+}
+
+#custom-food-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode .container {
+  background: #1e1e1e;
+}
+
+.dark-mode button {
+  background: #333;
+}
+
+.dark-mode button:hover {
+  background: #444;
+}
